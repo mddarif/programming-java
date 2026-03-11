@@ -1,0 +1,94 @@
+1️⃣ Print Numbers from 1 to 10
+public class PrintNumbers {
+    public static void main(String[] args) {
+        for(int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+    }
+}
+2️⃣ Print Even Numbers from 1 to 20
+public class EvenNumbers {
+    public static void main(String[] args) {
+        for(int i = 1; i <= 20; i++) {
+            if(i % 2 == 0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
+3️⃣ Print Odd Numbers from 1 to 20
+public class OddNumbers {
+    public static void main(String[] args) {
+        for(int i = 1; i <= 20; i++) {
+            if(i % 2 != 0) {
+                System.out.println(i);
+            }
+        }
+    }
+}
+4️⃣ Sum of Numbers from 1 to 10
+public class SumNumbers {
+    public static void main(String[] args) {
+        int sum = 0;
+
+        for(int i = 1; i <= 10; i++) {
+            sum += i;
+        }
+
+        System.out.println("Sum: " + sum);
+    }
+}
+5️⃣ Multiplication Table
+
+Example: Table of 5
+
+public class Table {
+    public static void main(String[] args) {
+        int num = 5;
+
+        for(int i = 1; i <= 10; i++) {
+            System.out.println(num + " x " + i + " = " + (num * i));
+        }
+    }
+}
+6️⃣ Reverse a Number using Loop
+public class ReverseNumber {
+    public static void main(String[] args) {
+        int num = 123;
+        int reverse = 0;
+
+        while(num != 0) {
+            int digit = num % 10;
+            reverse = reverse * 10 + digit;
+            num /= 10;
+        }
+
+        System.out.println(reverse);
+    }
+}
+7️⃣ Factorial using Loop
+public class Factorial {
+    public static void main(String[] args) {
+        int num = 5;
+        int fact = 1;
+
+        for(int i = 1; i <= num; i++) {
+            fact *= i;
+        }
+
+        System.out.println("Factorial: " + fact);
+    }
+}
+8️⃣ Fibonacci Series using Loop
+public class Fibonacci {
+    public static void main(String[] args) {
+        int a = 0, b = 1;
+
+        for(int i = 1; i <= 10; i++) {
+            System.out.print(a + " ");
+            int c = a + b;
+            a = b;
+            b = c;
+        }
+    }
+}

@@ -6,6 +6,8 @@ public class PrintNumbers {
         }
     }
 }
+
+
 2️⃣ Print Even Numbers from 1 to 20
 public class EvenNumbers {
     public static void main(String[] args) {
@@ -16,6 +18,8 @@ public class EvenNumbers {
         }
     }
 }
+
+
 3️⃣ Print Odd Numbers from 1 to 20
 public class OddNumbers {
     public static void main(String[] args) {
@@ -91,4 +95,5 @@ public class Fibonacci {
             b = c;
         }
     }
+
 }

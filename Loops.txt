@@ -65,6 +65,7 @@ public class Table {
 }
 
 
+
 6️⃣ Reverse a Number using Loop
 public class ReverseNumber {
     public static void main(String[] args) {
@@ -111,6 +112,7 @@ public class Fibonacci {
     }
 
 }
+
 
 
 

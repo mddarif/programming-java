@@ -9,7 +9,6 @@ public class PrintNumbers {
 
 
 
-
 2️⃣ Print Even Numbers from 1 to 20
 public class EvenNumbers {
     public static void main(String[] args) {
@@ -112,6 +111,7 @@ public class Fibonacci {
     }
 
 }
+
 
 
 
